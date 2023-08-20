@@ -1,0 +1,29 @@
+.widget.onboarding-widget-box{
+    display: none;
+}
+
+.web-footer .footer-powered{
+    display: none;
+}
+
+.login-content.page-card .page-card-head h4{
+    display: none;
+}
+
+.navbar-nav li.dropdown-help{
+    display: none !important;
+}
+
+.navbar .app-logo{
+    max-height: unset !important;
+    height: 50px;
+    width: unset !important;
+}
+
+.for-login .page-card-head{
+    margin: unset !important;
+}
+
+.for-login .page-card-head img{
+    max-height: 80px !important;
+}

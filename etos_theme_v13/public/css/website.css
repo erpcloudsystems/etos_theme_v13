@@ -1,0 +1,31 @@
+:root{
+    --primary: #15d8d8;
+    --text-color: var(--primary);
+    --primary-color: #c06be3;
+    --text-muted: var(--primary-color);
+}
+
+ .navbar-light{
+    background-color: var(--primary);
+}
+
+.products-list .card{
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 0 0 2px lightgray;
+}
+
+.products-list .card:hover{
+    box-shadow: 0 0 10px lightgray;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+a, a:hover, a:active{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
